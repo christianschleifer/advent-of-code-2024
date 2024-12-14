@@ -1,6 +1,7 @@
-use advent_of_code::{day_1, day_2};
+use advent_of_code::{day_1, day_2, day_3, output};
 
 fn main() {
-    day_1::solve();
-    day_2::solve();
+    output::wrap_day_results(1, day_1::solve);
+    output::wrap_day_results(2, day_2::solve);
+    output::wrap_day_results(3, day_3::solve);
 }

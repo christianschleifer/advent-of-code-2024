@@ -18,12 +18,9 @@ impl Input {
 }
 
 pub fn solve() {
-    println!("----------");
-    println!("Day 1");
     let input = get_input();
     solve_puzzle_1(input.clone());
     solve_puzzle_2(input.clone());
-    println!("----------");
 }
 
 fn get_input() -> Input {

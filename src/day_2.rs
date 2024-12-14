@@ -7,14 +7,9 @@ struct Input {
 }
 
 pub fn solve() {
-    println!("----------");
-    println!("Day 2");
-
     let input = get_input();
     solve_puzzle_1(input.clone());
     solve_puzzle_2(input);
-
-    println!("----------");
 }
 
 fn solve_puzzle_1(input: Input) {
