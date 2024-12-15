@@ -57,7 +57,7 @@ fn solve_puzzle_1(mut input: Input) {
         total_distance += distance;
     }
 
-    println!("Total distance between lists: {}", total_distance);
+    println!("Puzzle 1: Total distance between lists: {}", total_distance);
 }
 
 fn solve_puzzle_2(input: Input) {
@@ -76,5 +76,5 @@ fn solve_puzzle_2(input: Input) {
         }
     }
 
-    println!("Similarity score between lists: {}", similarity_score);
+    println!("Puzzle 2: Similarity score between lists: {}", similarity_score);
 }

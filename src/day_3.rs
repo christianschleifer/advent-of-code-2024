@@ -271,7 +271,7 @@ fn solve_puzzle_2(input: Input) {
         total_num += expression.evaluate();
     }
 
-    println!("Puzzle 1: Result of enabled multiplications: {}", total_num);
+    println!("Puzzle 2: Result of enabled multiplications: {}", total_num);
 }
 
 fn get_input() -> Input {
